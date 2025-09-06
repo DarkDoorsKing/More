@@ -1,1 +1,1 @@
-setclipboard(tostring("https://discord.gg/j25CmcJrwN"))
+setclipboard(tostring("https://discord.gg/HjqzMPJveZ"))
