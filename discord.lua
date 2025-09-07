@@ -1,1 +1,1 @@
-https://discord.gg/HjqzMPJveZ
+_G.DCS_BK = "https://discord.gg/HjqzMPJveZ"
