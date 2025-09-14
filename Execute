@@ -1,0 +1,7 @@
+if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635 then  -- Blox fruits
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Project/main/BloxFruits.lua"))()
+elseif game.PlaceId == 6839171747 then -- Doors Game
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Project/main/Doors.lua"))()
+elseif game.PlaceId == 125009265613167 then -- ink game
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Project/main/InkGame.lua"))()
+end
