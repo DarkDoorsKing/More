@@ -1,18 +1,21 @@
+local loader_BK = "https://raw.githubusercontent.com/DarkDoorsKing/Project/main/"
+
 if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635 then
     -- Blox fruits
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Project/main/BloxFruits.lua"))()
+	loadstring(game:HttpGet(loader_BK .. "BloxFruits.lua"))()
 elseif game.PlaceId == 6839171747 then
     -- Doors Game
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Project/main/Doors.lua"))()
+	loadstring(game:HttpGet(loader_BK .. "Doors.lua"))()
 elseif game.PlaceId == 125009265613167 then
     -- ink game
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Project/main/InkGame.lua"))()
+	loadstring(game:HttpGet(loader_BK .. "InkGame.lua"))()
 elseif game.PlaceId == 76172769094087 or game.PlaceId == 99567941238278 or game.PlaceId == 113555439745862 or game.PlaceId == 119099244949868 or game.PlaceId == 121431824618615 or game.PlaceId == 122816944483266 or game.PlaceId == 135136333168784 or game.PlaceId == 138384426832196 then
     -- ink lobby
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Project/main/InkGame.lua"))()
+    loadstring(game:HttpGet(loader_BK .. "InkGame.lua"))()
 elseif game.PlaceId == 13438553315 then
-    -- Decaying Winter
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Project/main/DecayingWinter.lua"))()
+    -- decaying winter
+    loadstring(game:HttpGet(loader_BK .. "DecayingWinter.lua"))()
 else
     -- universal
+    loadstring(game:HttpGet(loader_BK .. "Universal.lua"))()
 end
